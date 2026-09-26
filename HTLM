@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio - Étudiante en école de commerce</title>
+
+  <!-- Lien vers notre feuille de style CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- En-tête avec le nom et la navigation -->
+  <header class="header">
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#" class="logo">Mon Portfolio</a>
+
+      <ul class="nav-links">
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Section de présentation -->
+    <section id="profil" class="hero">
+      <div class="hero-text">
+        <p class="intro">Étudiante en école de commerce</p>
+
+        <h1>Bonjour, je suis <span>Vinciane Laville</span></h1>
+
+        <p>
+          Étudiante motivée et curieuse, je m'intéresse au marketing,
+          à la gestion de projet et au développement des entreprises.
+          Je recherche une opportunité qui me permettra de mettre
+          mes compétences en pratique.
+        </p>
+
+        <a href="#contact" class="button">Me contacter</a>
+      </div>
+
+      <!-- Remplacez le fichier par votre propre photo -->
+      <img
+        src="maphoto.png"
+        alt="Portrait de Vinciane Laville"
+        class="profile-photo"
+      >
+    </section>
+
+    <!-- Section compétences -->
+    <section id="competences" class="section">
+      <h2>Mes compétences</h2>
+
+      <div class="cards">
+
+        <article class="card">
+          <h3>Marketing</h3>
+          <p>Analyse du marché, création de contenus et stratégie marketing.</p>
+        </article>
+
+        <article class="card">
+          <h3>Gestion de projet</h3>
+          <p>Organisation, planification et suivi de projets en équipe.</p>
+        </article>
+
+        <article class="card">
+          <h3>Communication</h3>
+          <p>Communication orale, écrite et présentation devant un public.</p>
+        </article>
+
+        <article class="card">
+          <h3>Analyse de données</h3>
+          <p>Analyse de données et création de tableaux de bord simples.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section projets -->
+    <section id="projets" class="section projects">
+      <h2>Mes projets</h2>
+
+      <div class="cards">
+
+        <article class="card">
+          <h3>Projet marketing</h3>
+          <p>
+            Création d'une stratégie marketing pour le lancement
+            d'un produit fictif auprès d'une cible étudiante.
+          </p>
+          <p><strong>Compétences :</strong> marketing, analyse, communication.</p>
+        </article>
+
+        <article class="card">
+          <h3>Projet entrepreneurial</h3>
+          <p>
+            Travail en équipe autour de la création d'une idée
+            d'entreprise et de son modèle économique.
+          </p>
+          <p><strong>Compétences :</strong> gestion de projet, créativité, travail d'équipe.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section contact -->
+    <section id="contact" class="contact">
+      <h2>Me contacter</h2>
+
+      <p>
+        Vous souhaitez échanger au sujet d'une opportunité ?
+        N'hésitez pas à me contacter.
+      </p>
+
+      <a href="mailto:prenom.nom@email.com" class="button">
+        Envoyer un email
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Vinciane Laville - Portfolio</p>
+  </footer>
+
+  <!-- JavaScript chargé à la fin pour ne pas bloquer l'affichage -->
+  <script src="script.js"></script>
+
+</body>
+</html>
