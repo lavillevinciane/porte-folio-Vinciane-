@@ -1,0 +1,5 @@
+// Affiche automatiquement l'année actuelle dans le pied de page.
+// Cela évite de devoir modifier l'année chaque année.
+const year = document.getElementById("year");
+
+year.textContent = new Date().getFullYear();
